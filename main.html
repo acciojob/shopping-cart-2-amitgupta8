@@ -8,6 +8,36 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div>
+  <label for="item-name-input">Item Name:</label>
+  <input type="text" id="item-name-input">
+</div>
+<div>
+  <label for="item-price-input">Item Price:</label>
+  <input type="number" id="item-price-input">
+</div>
+<button id="add-button">Add</button>
+<table>
+  <thead>
+    <tr>
+      <th>Item Name</th>
+      <th>Item Price</th>
+    </tr>
+  </thead>
+  <tbody id="item-list">
+    <tr>
+      <td data-ns-test="item-name"></td>
+      <td data-ns-test="item-price"></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>Grand Total:</th>
+      <td data-ns-test="grandTotal">0</td>
+    </tr>
+  </tfoot>
+</table>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
